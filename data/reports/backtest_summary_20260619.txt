@@ -1,0 +1,53 @@
+══════════════════════════════════════════════════════════
+  HALAL ALPHA AI — BACKTEST SUMMARY
+══════════════════════════════════════════════════════════
+
+⚠  SURVIVORSHIP BIAS WARNING: This backtest uses tickers that exist and are accessible today. Companies that failed, were delisted, or were acquired between 2005–2026 are NOT included. Returns are likely overstated.
+
+⚠  LOOK-AHEAD BIAS WARNING: Fundamental data (revenue, earnings, ratios) is sourced as of today. We cannot guarantee that each metric reflects what was publicly available at each rebalance date. This introduces look-ahead bias in fundamental factor scores.
+
+══════════════════════════════════════════════════════════
+  FULL PERIOD PERFORMANCE
+══════════════════════════════════════════════════════════
+  Metric                        Portfolio        SPY        QQQ
+  ──────────────────────────────────────────────────────
+  CAGR                              20.0%      15.8%      18.6%
+  Sharpe                             1.13      1.08      0.98
+  Sortino                            2.11
+  Max Drawdown                     -23.5%     -20.2%     -27.1%
+  Win Rate                          63.5%
+  Alpha vs SPY                      +4.2%
+  Alpha vs QQQ                      +1.4%
+  Beta vs SPY                        1.20
+  Correlation w/ SPY                 1.00
+  Total Return                    4471.3%
+  Months                              252
+
+══════════════════════════════════════════════════════════
+  SUB-PERIOD ANALYSIS
+══════════════════════════════════════════════════════════
+  Period              Port CAGR   SPY CAGR   Port DD    SPY DD
+  ──────────────────────────────────────────────────────────
+  2005–2015               17.6%      13.8%    -23.5%    -20.2%
+  2016–2026               22.7%      18.0%    -19.8%    -17.1%
+  2008 Crisis             25.5%      20.1%     -5.2%     -4.4%
+  2020 COVID              10.6%       8.1%     -6.6%     -5.5%
+  2022 Bear               25.2%      20.2%     -9.8%     -8.2%
+
+  Performance decay (out vs in): +5.1%
+  Avg positions: 5.0  |  Avg HHI: 0.225  |  Avg top-1 weight: 30.0%
+
+══════════════════════════════════════════════════════════
+  PASS / FAIL
+══════════════════════════════════════════════════════════
+  ✓  CAGR beats SPY                              20.0%   (threshold: SPY 15.8%)
+  ✓  Sharpe ≥ 0.5                                 1.13   (threshold: ≥ 0.50)
+  ✓  Sortino ≥ 0.7                                2.11   (threshold: ≥ 0.70)
+  ✓  Max DD not >10pp worse than SPY            -23.5%   (threshold: ≥ -30.2%  (SPY -20.2% − 10pp))
+  ✓  Win Rate ≥ 45%                              63.5%   (threshold: ≥ 45%)
+  ✓  Out-sample CAGR > 0%                        22.7%   (threshold: > 0%)
+  ✓  Out-sample beats SPY                        22.7%   (threshold: SPY 18.0%)
+
+  Result: 7 passed / 0 failed
+
+══════════════════════════════════════════════════════════

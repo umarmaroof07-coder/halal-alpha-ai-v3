@@ -1,0 +1,14 @@
+{
+  "completed_at": "2026-06-19T19:17:33.590899",
+  "n_months": 252,
+  "cagr": 19.96,
+  "sharpe": 1.13,
+  "sortino": 2.106,
+  "max_drawdown": -23.55,
+  "win_rate": 63.49,
+  "alpha_vs_spy": 4.18,
+  "warnings": [
+    "SURVIVORSHIP BIAS WARNING: This backtest uses tickers that exist and are accessible today. Companies that failed, were delisted, or were acquired between 2005\u20132026 are NOT included. Returns are likely overstated.",
+    "LOOK-AHEAD BIAS WARNING: Fundamental data (revenue, earnings, ratios) is sourced as of today. We cannot guarantee that each metric reflects what was publicly available at each rebalance date. This introduces look-ahead bias in fundamental factor scores."
+  ]
+}

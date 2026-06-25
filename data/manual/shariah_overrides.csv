@@ -1,0 +1,3 @@
+ticker,override_status,reason
+# Add manual overrides here. override_status: compliant or non_compliant
+# Overrides apply to ratio failures ONLY. Haram industry screen cannot be overridden.
